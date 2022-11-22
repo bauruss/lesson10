@@ -389,6 +389,8 @@
     font-size: 42px;
 }
 .general-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 1088px;
     width: 80%;
@@ -406,6 +408,8 @@
     margin: 0 auto;
 }
 .f-top-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 1088px;
     width: 80%;
