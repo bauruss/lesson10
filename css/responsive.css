@@ -2,8 +2,8 @@
     .block {
         width: 48%;
     }
-    .section2 {
-        height: auto;
+    .s2-container {
+        height: 100%;
         padding-bottom: 50px;
     }
     .block:nth-child(1),
@@ -57,9 +57,8 @@
     .block {
         width: 100%;
     }
-    .section2 {
-        height: auto;
-        padding-bottom: 50px;
+    .setction2 {
+        height: 100%;
     }
     .triple-image {
         -webkit-box-pack: center;
@@ -83,6 +82,11 @@
     .f-block:nth-child(2) {
         margin-bottom: 40px;
     }
+    .f-top-block,
+    .general-form {
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 480px) {
     .f-block {

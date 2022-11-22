@@ -80,7 +80,8 @@
         flex-wrap: wrap;
 }
 .left-block {
-    width: 444px;
+    max-width: 444px;
+    width: 90%;
     margin-top: 128px;
 }
 .left-block h4 {
@@ -89,7 +90,8 @@
     margin-bottom: 1px;
 }
 .left-block h2 {
-    width: 306px;
+    max-width: 306px;
+    width: 90%;
     font-size: 42px;
     margin-bottom: 14px;
 }
@@ -116,10 +118,10 @@
 /* section two */
 .section2 {
     background-image: url("../images/s2-background.jpg");
-    height: 612px;
     width: 100%;
+    height: 612px;
     background-repeat: no-repeat;
-    background-clip: cover;
+    background-size: cover;
     padding-top: 92px;
 }
 .s2-container {
@@ -188,12 +190,14 @@
     margin-left: 139px;
 }
 .left-div p {
-    width: 432px;
+    max-width: 432px;
+    width: 90%;
     font-size: 42px;
 }
 .left-div p:nth-child(4) {
     font-size: 14px;
-    width: 352px;
+    max-width: 352px;
+    width: 90%;
 }
 .left-div h4 {
     font-size: 14px;
@@ -296,5 +300,78 @@
     margin-bottom: 21px;
 }
 .mariam {
+    max-width: 1300px;
+    width: 90%;
     margin: 54px 0 0 139px;
+}
+
+/* contact */
+.contact-text {
+    max-width: 1088px;
+    width: 80%;
+    margin: 54px auto;
+}
+.general-form {
+    display: flex;
+    max-width: 1088px;
+    width: 80%;
+    margin: 10px auto;
+}
+.s-form {
+    max-width: 1088px;
+    width: 80%;
+    margin: 50px auto;
+}
+.map-batumi {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    margin: 0 auto;
+}
+.f-top-block {
+    display: flex;
+    max-width: 1088px;
+    width: 80%;
+    margin: 25px auto 10px;
+}
+.f-left-block {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+}
+.f-right-block {
+    max-width: 352px;
+    width: 100%;
+    height: 288px;
+    margin-left: 16px;
+}
+.input {
+    background-color: #F8F8F8;
+    max-width: 352;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 16px;
+    border: none;
+}
+.button {
+    background-color: #5863F8;
+    max-width: 352;
+    width: 100%;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+.textarea {
+    resize: none;
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    background-color: #F8F8F8;
+    font-size: 20px;
+}
+
+.input:focus,
+.textarea:focus,
+.plan:focus {
+    outline: none;
 }
